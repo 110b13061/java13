@@ -12,7 +12,7 @@ public class Class05 {
 		catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("除數為0");
 		}
-		catch(ArithmeticException e) {
+		catch(Exception e) {
 			System.out.println("陣列索引值超出了範圍");
 		}
 
